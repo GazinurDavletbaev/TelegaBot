@@ -10,7 +10,7 @@ def main(message):
 
 
 print(plus(3, 4))
-
+print(plus(4, 4))
 
 @bot.message_handler(commands=['info'])
 def main(message):
