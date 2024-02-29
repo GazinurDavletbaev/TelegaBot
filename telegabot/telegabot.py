@@ -11,7 +11,7 @@ def main(message):
 
 print(plus(3, 4))
 print(plus(4, 4))
-
+print(plus(5, 4))
 
 @bot.message_handler(commands=['stop'])
 def main(message):
