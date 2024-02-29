@@ -1,4 +1,5 @@
 import telebot
+from func import plus
 
 bot = telebot.TeleBot('7084082443:AAGrqnOeAa7ub1vW1LRytZdN0pzLIZhHYT4')
 
@@ -6,6 +7,9 @@ bot = telebot.TeleBot('7084082443:AAGrqnOeAa7ub1vW1LRytZdN0pzLIZhHYT4')
 @bot.message_handler(commands=['start'])
 def main(message):
     bot.send_message(message.chat.id, 'Privet Danja')
+
+
+print(plus(3, 4))
 
 
 @bot.message_handler(commands=['info'])
