@@ -12,4 +12,8 @@ def main(message):
     bot.send_message(message.chat.id, 'Privet Danja')
 
 
+@bot.message_handler(commands=['stop'])
+def main(message):
+    bot.send_message(message.chat.id, 'Privet Danja')
+
 bot.polling(none_stop=True)
